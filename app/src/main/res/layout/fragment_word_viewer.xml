@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WordViewerFragment"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/sorts_mill_goudy_italic"
+            android:padding="25dp"
+            android:text="Hello"
+            android:textSize="@dimen/headingText_size" />
+
+        <TextView
+            android:id="@+id/meaning_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="20dp"
+            android:text="No more words to show"
+            android:textSize="@dimen/normalText_size" />
+
+
+        <TextView
+            android:id="@+id/example_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="20dp"
+            android:text="Please come later."
+            android:textSize="@dimen/normalText_size" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Next Word"
+            />
+
+
+    </LinearLayout>
+</layout>
